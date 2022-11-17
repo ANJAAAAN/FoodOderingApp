@@ -1,0 +1,5 @@
+This file contains the general UI components. 
+For example: Input components wehere user can input the amount.
+              Card components like container .
+              Modal components 
+Basically a genereal UI components which are not tied with the specifice features of app but are used generally.

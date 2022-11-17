@@ -1,0 +1,1 @@
+This folder conatains the List of the meals but also the individual meals item components.
