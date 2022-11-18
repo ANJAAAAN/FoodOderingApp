@@ -4,7 +4,8 @@ import classes from "./HeaderCartButton.module.css";
 
 export default function HeaderCartButton(props) {
   return (
-    <button className={classes.button}>
+    
+        <button className={classes.button} onClick={props.onClick}>
       {/* first span is for wrapping icons which is comming from CartIcon folder */}
       <span className={classes.icon}>
         <CartIcon></CartIcon>
@@ -16,5 +17,6 @@ export default function HeaderCartButton(props) {
       {/* third one is for badge */}
       <span className={classes.badge}>3</span>
     </button>
+   
   );
 }

@@ -11,6 +11,7 @@
     padding: 0;
   }
   
+  /* it makes the list of food apper in sliding animation */
   @keyframes meals-appear {
     from {
       opacity: 0;

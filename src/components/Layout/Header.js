@@ -1,6 +1,7 @@
 import React from 'react'
 
 import mealsImage from'../../assets/meals.jpg'
+
 import classes from './Header.module.css'
 import HeaderCartButton from './HeaderCartButton'
 
@@ -12,7 +13,8 @@ export default function Header(props) {
             <h1>
                 ReactMeals   
             </h1>
-            <HeaderCartButton/>
+           
+            <HeaderCartButton onClick={props.onShowCart}/>
         </header>
         {/* Here css classes in inside the big bracket 
         beacause there is a (-) in between classname.*/}
