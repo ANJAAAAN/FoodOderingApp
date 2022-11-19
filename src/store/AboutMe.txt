@@ -1,0 +1,1 @@
+this folder contains the sate of the application. Like useContext hook
