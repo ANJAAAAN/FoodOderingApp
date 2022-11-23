@@ -17,7 +17,6 @@ export default function HeaderCartButton(props) {
     const btnClasses = `${classes.button} ${btnBump?classes.bump:''}`;
 
     
-
     useEffect(()=>{
       if(items.length ===0){
         return;
@@ -31,6 +30,7 @@ export default function HeaderCartButton(props) {
         clearTimeout(timer);
        } 
     },[items]);
+    
   return (
 
         <button className={btnClasses} onClick={props.onClick}>
