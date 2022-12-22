@@ -10,7 +10,7 @@ export default function MealItem(props) {
   // here tofixed() will output the value in 2 decimal digit
   const price = `Rs ${props.price.toFixed(2)}`;
 
-  const addToCartHnadler = (amount) => {
+  const addToCartHandler = (amount) => {
     cartCtx.addItem({
       id: props.id,
       name: props.name,
@@ -28,7 +28,10 @@ export default function MealItem(props) {
       </div>
       {/* second div */}
       <div>
-        <MealItemForm id={props.id} onAddToCart={addToCartHnadler}></MealItemForm>
+        <MealItemForm
+          id={props.id}
+          onAddToCart={addToCartHandler}
+        ></MealItemForm>
       </div>
     </li>
   );
